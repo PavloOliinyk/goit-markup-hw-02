@@ -1,0 +1,63 @@
+body {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Roboto', 'Arial', sans-serif;
+  color: #212121;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+button:hover,
+button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+a:hover,
+a:focus {
+  color: #2196f3;
+}
+
+.menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.card-project {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+footer a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.info-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
