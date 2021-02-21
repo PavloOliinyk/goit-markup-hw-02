@@ -1,63 +1,103 @@
+:root {
+  --buttonColor: #2196f3;
+  --primaryTextColor: #757575;
+  --titleColor: #212121;
+  --secondaryTextColor: #ffffff;
+  --bgColor: #e5e5e5;
+}
+
 body {
   /* font-family: 'Raleway', sans-serif; */
   font-family: 'Roboto', 'Arial', sans-serif;
-  color: #212121;
+  color: var(--primaryTextColor);
+
+  background-color: var(--bgColor);
 }
 
-button {
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+ul {
+  list-style: none;
 }
 
-button:hover,
-button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+.btn {
+  background-color: #f5f4fa;
 }
 
-a:hover,
-a:focus {
+.btn.btn-primary {
+  color: var(--secondaryTextColor);
+  background-color: var(--buttonColor);
+}
+
+.btn.btn-secondary:hover,
+.btn.btn-secondary:focus {
+  color: var(--secondaryTextColor);
+  background-color: var(--buttonColor);
+}
+
+.header {
+  background-color: var(--secondaryTextColor);
+}
+
+.logo.top {
+  color: #000000;
+}
+
+.logo.bottom {
+  color: var(--secondaryTextColor);
+}
+
+.logo .part {
   color: #2196f3;
 }
 
-.menu {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+.page-nav .link {
+  color: var(--titleColor);
 }
 
-.card-title {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
+.auth-nav .link {
+  color: var(--primaryTextColor);
 }
 
-.card-project {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  color: #757575;
+.link.active {
+  color: var(--buttonColor);
 }
 
-footer {
+.link:hover,
+.link:focus {
+  color: var(--buttonColor);
+}
+
+.hero {
   background-color: #2f303a;
 }
 
-footer a {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #ffffff;
+.hero-title {
+  color: var(--secondaryTextColor);
 }
 
-.info-link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+.title {
+  color: var(--titleColor);
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-members {
+  background-color: var(--secondaryTextColor);
+}
+
+.cards-item {
+  background-color: var(--secondaryTextColor);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.info-map {
+  color: var(--secondaryTextColor);
+}
+
+.info-send {
   color: rgba(255, 255, 255, 0.6);
 }
