@@ -7,10 +7,9 @@
 }
 
 body {
-  /* font-family: 'Raleway', sans-serif; */
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
   color: var(--primaryTextColor);
-
   background-color: var(--bgColor);
 }
 
@@ -18,24 +17,45 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .btn {
-  background-color: #f5f4fa;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 
-.btn.btn-primary {
-  color: var(--secondaryTextColor);
-  background-color: var(--buttonColor);
+.filters .btn {
+  background-color: #f5f4fa;
 }
 
+.btn.btn-primary,
 .btn.btn-secondary:hover,
 .btn.btn-secondary:focus {
   color: var(--secondaryTextColor);
   background-color: var(--buttonColor);
 }
 
+.hero .btn.btn-primary:hover,
+.hero .btn.btn-primary:focus {
+  background-color: #188ce8;
+}
+
 .header {
   background-color: var(--secondaryTextColor);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo.top {
@@ -50,6 +70,13 @@ ul {
   color: #2196f3;
 }
 
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .page-nav .link {
   color: var(--titleColor);
 }
@@ -58,10 +85,7 @@ ul {
   color: var(--primaryTextColor);
 }
 
-.link.active {
-  color: var(--buttonColor);
-}
-
+.link.active,
 .link:hover,
 .link:focus {
   color: var(--buttonColor);
@@ -73,14 +97,43 @@ ul {
 
 .hero-title {
   color: var(--secondaryTextColor);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-title .btn:hover,
+.hero-title .btn:focus {
+  background-color: #188ce8;
+}
+
+.section-title {
+  color: var(--titleColor);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .title {
   color: var(--titleColor);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .team {
   background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 .team-members {

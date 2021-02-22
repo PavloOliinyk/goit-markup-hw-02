@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Вебстудия</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <!--FONTS!!!-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -27,7 +27,7 @@
             <li>
               <a href="./portfolio.html" class="link active">Портфолио</a>
             </li>
-            <li>Контакты</li>
+            <li><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="auth-nav">
@@ -42,127 +42,148 @@
     </header>
 
     <main>
-      <!--FILTERS-->
-      <section class="filters">
-        <h2 class="title">Фильтрация приложений</h2>
-        <ul>
-          <li>
-            <button type="button" class="btn btn-primary">Все</button>
-          </li>
-          <li>
-            <button type="button" class="btn btn-secondary">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="btn btn-secondary">Приложения</button>
-          </li>
-          <li>
-            <button type="button" class="btn btn-secondary">Дизайн</button>
-          </li>
-          <li>
-            <button type="button" class="btn btn-secondary">Маркетинг</button>
-          </li>
-        </ul>
-      </section>
+      <section>
+        <h1 class="title">Фильтрация приложений</h1>
 
-      <!--CARDS-->
-      <section class="cards">
-        <h2 class="title">Проекты работ</h2>
-        <ul>
+        <!--FILTERS-->
+        <div class="filters">
+          <ul>
+            <li>
+              <button type="button" class="btn btn-primary">Все</button>
+            </li>
+            <li>
+              <button type="button" class="btn btn-secondary">Веб-сайты</button>
+            </li>
+            <li>
+              <button type="button" class="btn btn-secondary">
+                Приложения
+              </button>
+            </li>
+            <li>
+              <button type="button" class="btn btn-secondary">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="btn btn-secondary">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
+
+        <!--CARDS-->
+
+        <ul class="cards">
           <li class="cards-item">
-            <img
-              src="./images/portfolio/project-1.jpg"
-              alt="Ноутбук"
-              width="370"
-              height="294"
-            />
-            <h3 class="title">Технокряк</h3>
-            <p>Веб-сайт</p>
+            <a href="">
+              <img
+                src="./images/portfolio/project-1.jpg"
+                alt="Ноутбук"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Технокряк</h2>
+              <p>Веб-сайт</p>
+            </a>
           </li>
           <li class="cards-item">
-            <img
-              src="./images/portfolio/project-2.jpg"
-              alt="Два баскетболиста"
-              width="370"
-              height="294"
-            />
-            <h3 class="title">
-              Постер <span lang="en">New Orlean vs Golden Star</span>
-            </h3>
-            <p>Дизайн</p>
+            <a href="">
+              <img
+                src="./images/portfolio/project-2.jpg"
+                alt="Два баскетболиста"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p>Дизайн</p>
+            </a>
           </li>
           <li class="cards-item">
-            <img
-              src="./images/portfolio/project-3.jpg"
-              alt="Эмблема ресторана"
-              width="370"
-              height="294"
-            />
-            <h3 class="title">Ресторан <span lang="en">Seafood</span></h3>
-            <p>Приложение</p>
+            <a href="">
+              <img
+                src="./images/portfolio/project-3.jpg"
+                alt="Эмблема ресторана"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Ресторан <span lang="en">Seafood</span></h2>
+              <p>Приложение</p>
+            </a>
           </li>
           <li class="cards-item">
-            <img
-              src="./images/portfolio/project-4.jpg"
-              alt="Наушники"
-              width="370"
-              height="294"
-            />
-            <h3 class="title">Проект <span lang="en">Prime</span></h3>
-            <p>Маркетинг</p>
+            <a href="">
+              <img
+                src="./images/portfolio/project-4.jpg"
+                alt="Наушники"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Проект <span lang="en">Prime</span></h2>
+              <p>Маркетинг</p>
+            </a>
           </li>
           <li class="cards-item">
-            <img
-              src="./images/portfolio/project-5.jpg"
-              alt="Коричневая и белая коробки"
-              width="370"
-              height="294"
-            />
-            <h3 class="title">Проект <span lang="en">Boxes</span></h3>
-            <p>Приложение</p>
+            <a href="">
+              <img
+                src="./images/portfolio/project-5.jpg"
+                alt="Коричневая и белая коробки"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">Проект <span lang="en">Boxes</span></h2>
+              <p>Приложение</p>
+            </a>
           </li>
           <li class="cards-item">
-            <img
-              src="./images/portfolio/project-6.jpg"
-              alt="Монитор компьютера"
-              width="370"
-              height="294"
-            />
-            <h3 lang="en" class="title">Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <a href="">
+              <img
+                src="./images/portfolio/project-6.jpg"
+                alt="Монитор компьютера"
+                width="370"
+                height="294"
+              />
+              <h2 lang="en" class="title">Inspiration has no Borders</h2>
+              <p>Веб-сайт</p>
+            </a>
           </li>
           <li class="cards-item">
-            <img
-              src="./images/portfolio/project-7.jpg"
-              alt="Книга"
-              width="370"
-              height="294"
-            />
-            <h3 class="title">
-              Издание <span lang="en">Limited Edition</span>
-            </h3>
-            <p>Дизайн</p>
+            <a href="">
+              <img
+                src="./images/portfolio/project-7.jpg"
+                alt="Книга"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">
+                Издание <span lang="en">Limited Edition</span>
+              </h2>
+              <p>Дизайн</p>
+            </a>
           </li>
           <li class="cards-item">
-            <img
-              src="./images/portfolio/project-8.jpg"
-              alt="Этикетка"
-              width="370"
-              height="294"
-            />
-            <h3 class="title">
-              Проект <abbr title="Label tag" lang="en">LAB</abbr>
-            </h3>
-            <p>Маркетинг</p>
+            <a href="">
+              <img
+                src="./images/portfolio/project-8.jpg"
+                alt="Этикетка"
+                width="370"
+                height="294"
+              />
+              <h2 class="title">
+                Проект <abbr title="Label tag" lang="en">LAB</abbr>
+              </h2>
+              <p>Маркетинг</p>
+            </a>
           </li>
           <li class="cards-item">
-            <img
-              src="./images/portfolio/project-9.jpg"
-              alt="Набирает текст на ноутбуке"
-              width="370"
-              height="294"
-            />
-            <h3 lang="en" class="title">Growing Business</h3>
-            <p>Приложение</p>
+            <a href="">
+              <img
+                src="./images/portfolio/project-9.jpg"
+                alt="Набирает текст на ноутбуке"
+                width="370"
+                height="294"
+              />
+              <h2 lang="en" class="title">Growing Business</h2>
+              <p>Приложение</p>
+            </a>
           </li>
         </ul>
       </section>
