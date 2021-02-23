@@ -21,13 +21,42 @@ a {
   text-decoration: none;
 }
 
-.btn {
-  font-weight: bold;
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--secondaryTextColor);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-btn {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--secondaryTextColor);
+  background-color: var(--buttonColor);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
@@ -40,11 +69,6 @@ a {
 .btn.btn-secondary:focus {
   color: var(--secondaryTextColor);
   background-color: var(--buttonColor);
-}
-
-.hero .btn.btn-primary:hover,
-.hero .btn.btn-primary:focus {
-  background-color: #188ce8;
 }
 
 .header {
@@ -91,24 +115,6 @@ a {
   color: var(--buttonColor);
 }
 
-.hero {
-  background-color: #2f303a;
-}
-
-.hero-title {
-  color: var(--secondaryTextColor);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
-
-.hero-title .btn:hover,
-.hero-title .btn:focus {
-  background-color: #188ce8;
-}
-
 .section-title {
   color: var(--titleColor);
   font-weight: 700;
@@ -124,12 +130,25 @@ a {
   font-weight: 700;
 }
 
+.cards-item .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.cards-item .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primaryTextColor);
+}
+
 .text {
   font-size: 14px;
   line-height: 1.71;
 }
 
-.team {
+.team-about {
   background-color: #f5f4fa;
   font-size: 16px;
   line-height: 1.19;
@@ -146,6 +165,12 @@ a {
 
 .footer {
   background-color: #2f303a;
+}
+
+.info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .info-map {
