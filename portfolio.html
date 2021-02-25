@@ -20,31 +20,37 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="header">
-        <nav>
-          <a href="./index.html" lang="en" class="logo top"
-            ><span class="part">Web</span>Studio</a
-          >
-          <ul class="page-nav">
-            <li>
-              <a href="./index.html" class="link">Студия</a>
-            </li>
-            <li>
-              <a href="./portfolio.html" class="link active">Портфолио</a>
-            </li>
-            <li><a href="" class="link">Контакты</a></li>
-          </ul>
-        </nav>
-        <ul class="auth-nav">
-          <li>
-            <a href="mailto:info@example.com" class="link">info@example.com</a>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="logo link" href="./index.html" lang="en">
+          <span class="logo-part">Web</span>Studio
+        </a>
+        <ul class="header-nav-menu list">
+          <li class="header-item">
+            <a class="header-link link follow" href="./index.html">Студия</a>
           </li>
-          <li>
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          <li class="header-item">
+            <a class="header-link link active" href="./portfolio.html"
+              >Портфолио</a
+            >
+          </li>
+          <li class="header-item">
+            <a class="header-link link follow" href="">Контакты</a>
           </li>
         </ul>
-      </div>
+      </nav>
+      <ul class="header-auth list">
+        <li class="header-item">
+          <a class="header-link link follow" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+        </li>
+        <li class="header-item">
+          <a class="header-link link follow" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
     </header>
 
     <main>
@@ -200,7 +206,7 @@
         <a href="./index.html" lang="en" class="logo bottom"
           ><span class="part">Web</span>Studio</a
         >
-        <address>
+        <address class="address">
           <ul class="info">
             <li>
               <a
