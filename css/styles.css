@@ -26,18 +26,14 @@ body {
 }
 
 .link.active,
-.link.follow:hover,
-.link.follow:focus {
+.header-link.link:hover,
+.header-link.link:focus {
   color: var(--activeLinkColor);
 }
 
-.btn.btn-primary {
-  color: var(--whiteTextColor);
-  background-color: var(--activeLinkColor);
-}
-
-.btn.btn-secondary:hover,
-.btn.btn-secondary:focus {
+.btn.btn-primary,
+.btn:hover,
+.btn:focus {
   color: var(--whiteTextColor);
   background-color: var(--activeLinkColor);
 }
@@ -65,10 +61,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
-}
-
-.logo.bottom {
-  color: var(--whiteTextColor);
 }
 
 .logo-part {
@@ -133,11 +125,45 @@ body {
 }
 
 .features-item-desc {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 
 /* +++++++ FEATURES END +++++++ */
+
+/* +++++++ TEAM +++++++ */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-list-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-title {
+  font-weight: 500;
+  color: var(--secondaryTextColor);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-list-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primaryTextColor);
+}
+
+/* +++++++ TEAM END +++++++ */
+
+/* +++++++ SERVICES +++++++ */
 
 .btn {
   font-weight: 500;
@@ -146,38 +172,33 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-}
-
-.filters .btn {
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
-.cards-item .title {
+.cards-list {
+  border: 1px solid #eeeeee;
+}
+
+.cards-list-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.cards-item .text {
+.cards-list-desc {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--primaryTextColor);
 }
 
-.team-about {
-  background-color: #f5f4fa;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-}
+/* +++++++ SERVICES END +++++++ */
 
-.team-members {
-  background-color: var(--whiteTextColor);
-}
+/* +++++++ FOOTER +++++++ */
 
-.cards-item {
-  background-color: var(--whiteTextColor);
+.logo.bottom {
+  color: var(--whiteTextColor);
 }
 
 .footer {
@@ -188,16 +209,18 @@ body {
   font-style: normal;
 }
 
-.info {
+.address-list {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.info-map {
+.address-list-link-gmaps {
   color: var(--whiteTextColor);
 }
 
-.info-send {
+.address-list-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* +++++++ FOOTER END +++++++ */
